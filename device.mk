@@ -45,6 +45,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     $(LOCAL_PATH)/audio/mixer_paths_madera_single_pa.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_madera_single_pa.xml
 
+# fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # Fingerprint Gestures
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-egis.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-egis.kl \
