@@ -26,9 +26,6 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := false
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
-
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
@@ -46,10 +43,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/aov_ec_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aov_ec_mixer_paths.xml \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     $(LOCAL_PATH)/audio/mixer_paths_madera_single_pa.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_madera_single_pa.xml
-
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2160
-TARGET_SCREEN_WIDTH := 1080
 
 # Fingerprint Gestures
 PRODUCT_COPY_FILES += \

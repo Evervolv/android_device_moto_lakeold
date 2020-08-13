@@ -1,0 +1,7 @@
+[
+  {
+   "repository":  "DirtyUnicorns/android_device_motorola_sdm660-common",
+   "target_path": "device/motorola/sdm660-common",
+   "branch":      "q10x"
+  }
+]

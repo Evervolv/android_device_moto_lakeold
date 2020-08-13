@@ -1,5 +1,3 @@
-Copyright 2019 - The LineageOS Project
-
 Device configuration for Motorola G7 Plus (lake)
 ==================================
 
