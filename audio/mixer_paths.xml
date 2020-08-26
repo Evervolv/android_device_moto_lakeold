@@ -816,6 +816,7 @@
 	</path>
 
 	<path name="speaker">
+        <ctl name="RX1 Digital Volume" value="92" />
 		<ctl name="AIF1TX1 Input 3" value="None" />
 		<!-- Set sample rate to 48kHz -->
 		<ctl name="AIF1 Capture-RCV AMP Playback" value="Anonymous Configuration 0" />
@@ -824,10 +825,10 @@
 		<ctl name="SPK PCM Source" value="DSP" />
 		<ctl name="RCV PCM Source" value="DSP" />
 		<ctl name="AIF1TX1 Input 1" value="SLIMRX1" />
-		<ctl name="AIF1TX1 Input 1 Volume" value="32" />
+		<ctl name="AIF1TX1 Input 1 Volume" value="36" />
 		<ctl name="AIF1TX2 Input 1" value="SLIMRX2" />
 		<ctl name="AIF1TX2 Input 1 Volume" value="32" />
-		<ctl name="SPK AMP PCM Gain" value="17" />
+		<ctl name="SPK AMP PCM Gain" value="18" />
 		<ctl name="RCV AMP PCM Gain" value="17" />
 		<ctl name="SPK AMP Enable Switch" value="1" />
 		<ctl name="RCV AMP Enable Switch" value="1" />
@@ -847,6 +848,7 @@
 	</path>
 
 	<path name="handset">
+        <ctl name="RX1 Digital Volume" value="92" />
 		<ctl name="AIF1TX1 Input 3" value="None" />
 		<!-- Set sample rate to 48kHz -->
 		<ctl name="AIF1 Capture-RCV AMP Playback" value="Anonymous Configuration 0" />
@@ -899,6 +901,14 @@
 
 	<path name="sidetone-hac-handset">
 		<path name="sidetone-handset" />
+	</path>
+
+	<path name="voice-call">
+		<path name="voice-call" />
+	</path>
+
+	<path name="voice-call speaker">
+		<path name="voice-call speaker" />
 	</path>
 
 	<path name="voice-handset">
