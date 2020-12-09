@@ -15,7 +15,7 @@
 #
 
 # Vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/lake/lake-vendor.mk)
+$(call inherit-product-if-exists, vendor/moto/lake/lake-vendor.mk)
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
@@ -100,4 +100,4 @@ PRODUCT_VENDOR_VERITY_PARTITION := /dev/block/platform/soc/c0c4000.sdhci/by-name
 $(call inherit-product, build/target/product/verity.mk)
 
 # Inherit from motorola sdm660-common
-$(call inherit-product, device/motorola/sdm660-common/common.mk)
+$(call inherit-product, device/moto/sdm660-common/common.mk)

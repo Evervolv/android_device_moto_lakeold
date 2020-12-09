@@ -17,9 +17,9 @@
 # Inherit from motorola sdm660-common
 # This flag needs to be set first
 BOARD_USES_KEYMASTER_4 := true
--include device/motorola/sdm660-common/BoardConfigCommon.mk
+-include device/moto/sdm660-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/lake
+DEVICE_PATH := device/moto/lake
 
 # Assertions
 TARGET_OTA_ASSERT_DEVICE := lake,lake_n
@@ -64,4 +64,4 @@ ENABLE_VENDOR_RIL_SERVICE := true
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # inherit from the proprietary version
--include vendor/motorola/lake/BoardConfigVendor.mk
+-include vendor/moto/lake/BoardConfigVendor.mk

@@ -16,17 +16,14 @@
 
 # Inherit some common DU stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+$(call inherit-product, vendor/ev/config/common_full_phone.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Device
-$(call inherit-product, device/motorola/lake/device.mk)
-
-# Pixelgapps
-$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+$(call inherit-product, device/moto/lake/device.mk)
 
 # A/B updater
 AB_OTA_UPDATER := true
@@ -60,12 +57,14 @@ PRODUCT_PACKAGES += \
     bootctrl.sdm660 \
     bootctrl.sdm660.recovery
 
+BOOT_ANIMATION_SIZE := 1080p
+
 # Recovery
-TARGET_RECOVERY_FSTAB := device/motorola/sdm660-common/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/moto/sdm660-common/rootdir/etc/fstab.qcom
 
 # Device identifiers
 PRODUCT_DEVICE := lake
-PRODUCT_NAME := du_lake
+PRODUCT_NAME := ev_lake
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto G7 Plus
 PRODUCT_MANUFACTURER := Motorola
