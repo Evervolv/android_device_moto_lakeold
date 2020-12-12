@@ -1,17 +1,10 @@
 [
  {
-  "repository":  "android_device_motorola_sdm660-common",
-  "target_path": "device/moto/sdm660-common",
-  "branch":      "r-11.0"
+    "repository":  "android_device_moto_sdm660-common",
+    "target_path": "device/moto/sdm660-common"
  },
  {
-  "repository":  "android_kernel_motorola_msm8998",
-  "target_path": "kernel/moto/msm8998",
-  "branch":      "r-11.0"
- },
-  {
-  "repository":  "android_vendor_motorola",
-  "target_path": "vendor/motorola",
-  "branch":      "r-11.0"
- },
+    "repository":  "android_kernel_moto_msm8998",
+    "target_path": "kernel/moto/msm8998"
+ }
 ]
