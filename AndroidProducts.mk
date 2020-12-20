@@ -18,4 +18,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/ev_lake.mk
 
 COMMON_LUNCH_CHOICES := \
+    ev_lake-user \
     ev_lake-userdebug
