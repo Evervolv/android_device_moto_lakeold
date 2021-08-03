@@ -68,3 +68,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="lake-user 10 QPWS30.61-21-18-7 fac4a release-keys"
 
 BUILD_FINGERPRINT := motorola/lake_retail/lake:10/QPWS30.61-21-18-7/fac4a:user/release-keys
+
+PRODUCT_CODENAME := Modicus
