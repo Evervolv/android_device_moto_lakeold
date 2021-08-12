@@ -51,8 +51,6 @@ PRODUCT_PACKAGES += \
 
 BOOT_ANIMATION_SIZE := 1080p
 
-WITH_GMS := true
-
 # Recovery
 TARGET_RECOVERY_FSTAB := device/moto/sdm660-common/rootdir/etc/fstab.qcom
 
