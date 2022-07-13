@@ -10,5 +10,9 @@
  {
     "repository":  "android_kernel_moto_msm8998",
     "target_path": "kernel/moto/msm8998"
+ },
+ {
+   "repository":  "android_vendor_moto",
+   "target_path": "vendor/moto"
  }
 ]
